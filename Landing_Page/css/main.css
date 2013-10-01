@@ -32,14 +32,15 @@ h2{
 table{
 	background: #f7f7f9;  /*changes color of the background of the table*/
 	border-collapse: collapse;
-	width: 100%;
+	width: 80%;
+	margin: auto;
 }
 tr{
 	display: table-row;
 	border-color: inherit;
 }
 .odd{
-	background: #ececec; /*changes color of the stripes table*/
+	background: #eaeaea; /*changes color of the stripes table*/
 }
 th{
 	text-align: left;
@@ -68,7 +69,7 @@ td:first-child{
 .main p{
 	width: 67.5%;
 	float: left;
-	font-size: 1.4em;
+	font-size: 1.5em;
 
 }
 .main figure{
@@ -89,7 +90,7 @@ figure img{
 /*-------------------------------------------  links -------------------------------------------------------*/
 a{
 	text-decoration: none;
-	font-size: 1.3em;
+	font-size: 1.4em;
 	color: #475a80;  /*changes color of the links*/
 }
 a:hover{
